@@ -1,10 +1,10 @@
-# FinTech Nova - Plataforma de Microservicios 🚀
+# FinTech Nova - Plataforma de Microservicios 
 
 Este repositorio contiene el código fuente y la infraestructura como código para la migración de la plataforma *FinTech Nova* hacia una arquitectura de microservicios políglota.
 
 El objetivo principal de este proyecto es contenerizar múltiples servicios desarrollados en distintos lenguajes y orquestarlos de manera segura para su posterior despliegue en la nube (AWS EC2).
 
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 La solución está compuesta por los siguientes microservicios:
 
@@ -16,7 +16,7 @@ La solución está compuesta por los siguientes microservicios:
 - **web**: Frontend (SPA) desarrollado con Vite, servido a través de NGINX.
 - **db**: Base de datos central MariaDB compartida entre los servicios.
 
-## 🚀 Estado Actual del Proyecto (Progreso)
+##  Estado Actual del Proyecto (Progreso)
 
 Hasta el momento, hemos avanzado con las siguientes fases:
 
@@ -26,7 +26,7 @@ Hasta el momento, hemos avanzado con las siguientes fases:
   - `api-pagos` (Node.js)
 - [x] **Testeo de Contenedores**: Construcción y ejecución exitosa de los contenedores de forma aislada localmente.
 
-## 📋 Próximos Pasos (To-Do)
+##  Próximos Pasos (To-Do)
 
 El desarrollo y despliegue continuará con las siguientes tareas:
 
@@ -42,5 +42,3 @@ El desarrollo y despliegue continuará con las siguientes tareas:
    - Aprovisionamiento de la instancia EC2.
    - Creación de scripts de automatización (`deploy.sh`) para clonar, preparar y levantar el stack productivo en la nube.
 
----
-> 💡 *Nota: Los archivos `.env` y certificados generados se omiten del control de versiones por seguridad.*
